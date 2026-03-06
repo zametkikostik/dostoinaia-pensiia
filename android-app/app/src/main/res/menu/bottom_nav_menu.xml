@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_portfolio"
+        android:icon="@drawable/ic_portfolio"
+        android:title="@string/nav_portfolio" />
+
+    <item
+        android:id="@+id/nav_calendar"
+        android:icon="@drawable/ic_calendar"
+        android:title="@string/nav_calendar" />
+
+    <item
+        android:id="@+id/nav_rebalance"
+        android:icon="@drawable/ic_rebalance"
+        android:title="@string/nav_rebalance" />
+
+    <item
+        android:id="@+id/nav_analytics"
+        android:icon="@drawable/ic_analytics"
+        android:title="@string/nav_analytics" />
+
+</menu>

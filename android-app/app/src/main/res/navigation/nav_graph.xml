@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_portfolio">
+
+    <fragment
+        android:id="@+id/nav_portfolio"
+        android:name="com.kostik.pensionportfolio.ui.PortfolioFragment"
+        android:label="@string/nav_portfolio"
+        tools:layout="@layout/fragment_portfolio" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.kostik.pensionportfolio.ui.CalendarFragment"
+        android:label="@string/nav_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_rebalance"
+        android:name="com.kostik.pensionportfolio.ui.RebalanceFragment"
+        android:label="@string/nav_rebalance"
+        tools:layout="@layout/fragment_rebalance" />
+
+    <fragment
+        android:id="@+id/nav_analytics"
+        android:name="com.kostik.pensionportfolio.ui.AnalyticsFragment"
+        android:label="@string/nav_analytics"
+        tools:layout="@layout/fragment_analytics" />
+
+</navigation>

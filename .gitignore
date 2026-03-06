@@ -1,0 +1,70 @@
+# ============================================
+# GITIGNORE — Пенсионный портфель
+# ============================================
+
+# Локальные настройки с чувствительными данными
+env.local
+*.env
+*.properties.local
+local.properties
+keystore.properties
+
+# Ключи подписи и.keystore файлы
+*.keystore
+*.jks
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+release-key.jks
+upload-keystore.jks
+android-app/app/*.jks
+android-app/app/*.keystore
+
+# Build файлы
+build/
+*/build/
+*/*/build/
+.gradle/
+*/.gradle/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Kotlin
+*.class
+*.log
+
+# Keystore keys
+key.properties
+secrets.properties
+
+# Cloudflare
+wrangler-local-state.toml
+.dev.vars
+
+# Временные файлы
+*.swp
+*.swo
+*~
+Thumbs.db
+
+# Тесты
+test-results/
+coverage/
+*.coverage
+
+# APK файлы
+android-app/app/*.apk
+releases/*.apk
+
+# Скриншоты и личные данные
+screenshots/
+private/
+*.log

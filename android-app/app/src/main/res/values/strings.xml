@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Пенсионный портфель</string>
+    <string name="settings">Настройки</string>
+    <string name="instrument_details">Детали инструмента</string>
+    
+    <!-- Навигация -->
+    <string name="nav_portfolio">Портфель</string>
+    <string name="nav_analytics">Аналитика</string>
+    <string name="nav_rebalance">Ребалансировка</string>
+    <string name="nav_dividends">Дивиденды</string>
+    <string name="nav_calendar">Календарь</string>
+    
+    <!-- Главная -->
+    <string name="total_value">Общая стоимость</string>
+    <string name="daily_change">Изменение за день</string>
+    <string name="instruments_count">Инструментов</string>
+    
+    <!-- Портфель -->
+    <string name="stocks">Акции</string>
+    <string name="bonds">Облигации</string>
+    <string name="gold">Золото</string>
+    <string name="allocation">Распределение</string>
+    
+    <!-- Аналитика -->
+    <string name="dividend_yield">Дивидендная доходность</string>
+    <string name="coupon_yield">Купонная доходность</string>
+    <string name="total_yield">Общая доходность</string>
+    <string name="pension_forecast">Прогноз пенсии</string>
+    <string name="future_value">Через %d лет:</string>
+    <string name="monthly_income">Ежемесячный доход:</string>
+    
+    <!-- Ребалансировка -->
+    <string name="rebalance_status">Статус ребалансировки</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="recommendations">Рекомендации</string>
+    <string name="no_recommendations">Нет рекомендаций по ребалансировке</string>
+    
+    <!-- Дивиденды -->
+    <string name="dividends_calendar">Календарь выплат</string>
+    <string name="ex_date">Дата отсечки</string>
+    <string name="amount">Сумма</string>
+    
+    <!-- Настройки -->
+    <string name="tinkoff_token">Токен Т-Инвестиции</string>
+    <string name="save">Сохранить</string>
+    <string name="clear">Очистить</string>
+    
+    <!-- Общее -->
+    <string name="buy">Купить</string>
+    <string name="sell">Продать</string>
+    <string name="error">Ошибка</string>
+    <string name="loading">Загрузка…</string>
+    <string name="refresh">Обновить</string>
+</resources>
