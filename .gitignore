@@ -60,9 +60,8 @@ test-results/
 coverage/
 *.coverage
 
-# APK файлы
+# APK файлы (кроме releases/)
 android-app/app/*.apk
-releases/*.apk
 
 # Скриншоты и личные данные
 screenshots/
